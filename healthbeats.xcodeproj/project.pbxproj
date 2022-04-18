@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4946C1BE280B319E00F847F9 /* ScaleFitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C1BD280B319E00F847F9 /* ScaleFitImageView.swift */; };
+		4946C1C4280BFCF900F847F9 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946C1C3280BFCF900F847F9 /* NumberTextField.swift */; };
+		49940376280C521800892638 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49940375280C521800892638 /* PhoneNumber.swift */; };
 		49A4166628091CA200776153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4166528091CA200776153 /* AppDelegate.swift */; };
 		49A4166828091CA200776153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4166728091CA200776153 /* SceneDelegate.swift */; };
 		49A4166A28091CA200776153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4166928091CA200776153 /* ViewController.swift */; };
 		49A4166D28091CA200776153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A4166B28091CA200776153 /* Main.storyboard */; };
 		49A4166F28091CA200776153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A4166E28091CA200776153 /* Assets.xcassets */; };
 		49A4167228091CA200776153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A4167028091CA200776153 /* LaunchScreen.storyboard */; };
+		49A4167D28091D1000776153 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4167C28091D1000776153 /* LoginViewController.swift */; };
+		49A4167F2809200500776153 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4167E2809200500776153 /* PaddingLabel.swift */; };
+		49A416822809207300776153 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A416812809207300776153 /* Task.swift */; };
+		49A416842809228500776153 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A416832809228500776153 /* Plan.swift */; };
+		49A416862809241700776153 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A416852809241700776153 /* PasswordTextField.swift */; };
+		49A416882809246200776153 /* TaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A416872809246200776153 /* TaskCollectionViewCell.swift */; };
+		49A4168A2809247800776153 /* PlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A416892809247800776153 /* PlanCollectionViewCell.swift */; };
+		49A4168C28093E9F00776153 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4168B28093E9F00776153 /* Extensions.swift */; };
+		49A4168E28097E3400776153 /* CareTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4168D28097E3400776153 /* CareTaskViewController.swift */; };
+		49A4169028097E3F00776153 /* CarePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4168F28097E3F00776153 /* CarePlanViewController.swift */; };
+		49A416922809A85900776153 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A416912809A85900776153 /* ActionButton.swift */; };
+		49A41694280AA73900776153 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A41693280AA73900776153 /* TabViewController.swift */; };
+		49A41696280ADECC00776153 /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A41695280ADECC00776153 /* SimpleViewController.swift */; };
+		49A41698280B205600776153 /* TaskFeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A41697280B205600776153 /* TaskFeeder.swift */; };
+		49A4169A280B218C00776153 /* PlanFeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A41699280B218C00776153 /* PlanFeeder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4946C1BD280B319E00F847F9 /* ScaleFitImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleFitImageView.swift; sourceTree = "<group>"; };
+		4946C1C3280BFCF900F847F9 /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
+		49940375280C521800892638 /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
 		49A4166228091CA200776153 /* healthbeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthbeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A4166528091CA200776153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A4166728091CA200776153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,21 @@
 		49A4166E28091CA200776153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A4167128091CA200776153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49A4167328091CA200776153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A4167C28091D1000776153 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		49A4167E2809200500776153 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		49A416812809207300776153 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		49A416832809228500776153 /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		49A416852809241700776153 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		49A416872809246200776153 /* TaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCollectionViewCell.swift; sourceTree = "<group>"; };
+		49A416892809247800776153 /* PlanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCollectionViewCell.swift; sourceTree = "<group>"; };
+		49A4168B28093E9F00776153 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		49A4168D28097E3400776153 /* CareTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTaskViewController.swift; sourceTree = "<group>"; };
+		49A4168F28097E3F00776153 /* CarePlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarePlanViewController.swift; sourceTree = "<group>"; };
+		49A416912809A85900776153 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		49A41693280AA73900776153 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		49A41695280ADECC00776153 /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
+		49A41697280B205600776153 /* TaskFeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFeeder.swift; sourceTree = "<group>"; };
+		49A41699280B218C00776153 /* PlanFeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanFeeder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +92,65 @@
 		49A4166428091CA200776153 /* healthbeats */ = {
 			isa = PBXGroup;
 			children = (
-				49A4166528091CA200776153 /* AppDelegate.swift */,
-				49A4166728091CA200776153 /* SceneDelegate.swift */,
+				49A416802809202500776153 /* Model */,
+				49A4167928091CCF00776153 /* View */,
+				49A4167B28091CFF00776153 /* Controller */,
+				49A4167A28091CE200776153 /* System */,
 				49A4166928091CA200776153 /* ViewController.swift */,
+				49A4168B28093E9F00776153 /* Extensions.swift */,
 				49A4166B28091CA200776153 /* Main.storyboard */,
-				49A4166E28091CA200776153 /* Assets.xcassets */,
 				49A4167028091CA200776153 /* LaunchScreen.storyboard */,
-				49A4167328091CA200776153 /* Info.plist */,
+				49A4166E28091CA200776153 /* Assets.xcassets */,
 			);
 			path = healthbeats;
+			sourceTree = "<group>";
+		};
+		49A4167928091CCF00776153 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49A4167E2809200500776153 /* PaddingLabel.swift */,
+				49A416912809A85900776153 /* ActionButton.swift */,
+				4946C1C3280BFCF900F847F9 /* NumberTextField.swift */,
+				49A416852809241700776153 /* PasswordTextField.swift */,
+				49A416872809246200776153 /* TaskCollectionViewCell.swift */,
+				49A416892809247800776153 /* PlanCollectionViewCell.swift */,
+				4946C1BD280B319E00F847F9 /* ScaleFitImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49A4167A28091CE200776153 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				49A4166528091CA200776153 /* AppDelegate.swift */,
+				49A4166728091CA200776153 /* SceneDelegate.swift */,
+				49A4167328091CA200776153 /* Info.plist */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		49A4167B28091CFF00776153 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49A4167C28091D1000776153 /* LoginViewController.swift */,
+				49A4168D28097E3400776153 /* CareTaskViewController.swift */,
+				49A4168F28097E3F00776153 /* CarePlanViewController.swift */,
+				49A41693280AA73900776153 /* TabViewController.swift */,
+				49A41695280ADECC00776153 /* SimpleViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49A416802809202500776153 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49A416812809207300776153 /* Task.swift */,
+				49A416832809228500776153 /* Plan.swift */,
+				49A41697280B205600776153 /* TaskFeeder.swift */,
+				49A41699280B218C00776153 /* PlanFeeder.swift */,
+				49940375280C521800892638 /* PhoneNumber.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +224,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4946C1BE280B319E00F847F9 /* ScaleFitImageView.swift in Sources */,
+				49A4167D28091D1000776153 /* LoginViewController.swift in Sources */,
+				49A4167F2809200500776153 /* PaddingLabel.swift in Sources */,
+				49A416842809228500776153 /* Plan.swift in Sources */,
+				49A41694280AA73900776153 /* TabViewController.swift in Sources */,
 				49A4166A28091CA200776153 /* ViewController.swift in Sources */,
+				49A4168E28097E3400776153 /* CareTaskViewController.swift in Sources */,
+				49A41698280B205600776153 /* TaskFeeder.swift in Sources */,
+				49940376280C521800892638 /* PhoneNumber.swift in Sources */,
+				49A4169A280B218C00776153 /* PlanFeeder.swift in Sources */,
 				49A4166628091CA200776153 /* AppDelegate.swift in Sources */,
+				49A416822809207300776153 /* Task.swift in Sources */,
+				49A4169028097E3F00776153 /* CarePlanViewController.swift in Sources */,
+				49A416882809246200776153 /* TaskCollectionViewCell.swift in Sources */,
+				49A4168A2809247800776153 /* PlanCollectionViewCell.swift in Sources */,
 				49A4166828091CA200776153 /* SceneDelegate.swift in Sources */,
+				49A4168C28093E9F00776153 /* Extensions.swift in Sources */,
+				49A416862809241700776153 /* PasswordTextField.swift in Sources */,
+				49A41696280ADECC00776153 /* SimpleViewController.swift in Sources */,
+				4946C1C4280BFCF900F847F9 /* NumberTextField.swift in Sources */,
+				49A416922809A85900776153 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -272,6 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -289,11 +395,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NQ864VCNU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = healthbeats/Info.plist;
+				INFOPLIST_FILE = healthbeats/System/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthBeats;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,11 +425,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NQ864VCNU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = healthbeats/Info.plist;
+				INFOPLIST_FILE = healthbeats/System/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthBeats;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
